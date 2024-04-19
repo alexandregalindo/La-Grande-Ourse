@@ -1,0 +1,91 @@
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.layout-header {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layout-footer {
+    background-color: #f4f4f4;
+    color: rgb(17, 15, 15);
+    padding: 10px 0;
+    text-align: center;
+    font-size: larger;
+}
+
+.layout-header .logo {
+    max-width: 200px;
+    height: auto;
+    max-height: 200px;
+    margin-left: 80px;
+    margin-bottom: -30px;
+    margin-top: -20px;
+    top: 8px;
+    left: 16px;
+    flex: 0.25;
+}
+
+.layout-body {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.dateInput .p-inputtext {
+    width: 110px;
+}
+
+.layout-menu {
+    flex: 0 0 25%;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+}
+
+.layout-content {
+    flex: 0 0 75%;
+    padding: 20px;
+    overflow-y: auto;
+
+}
+
+.layout-header .user-info {
+    display: flex;
+    align-items: left;
+    flex: 0.75;
+    right: 20px;
+    position: absolute;
+    top: 50px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.user-info .icon {
+    margin-right: 10px;
+}
+
+.p-datepicker-trigger {
+    background-image: url("../../public/searchIcon.png");
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.p-datatable {
+    padding-top:30px;
+}
+
+.p-inputnumber-input {
+    width: 50% !important;
+}
+
+tbody.p-datatable-tbody td {
+    border: 1px solid #e9ecef;
+  }

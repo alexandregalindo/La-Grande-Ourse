@@ -1,0 +1,103 @@
+@import '~primereact/resources/themes/saga-blue/theme.css';
+@import '~primereact/resources/primereact.min.css';
+@import '~primeicons/primeicons.css';
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.small-card {
+  width: 100%; 
+  margin: auto;
+}
+
+.card-header-image {
+  max-width: 100hv;  
+  height: auto;     
+  max-height: 200px;  
+}
+.p-field input[type="email"], .p-field input[type="password"] {
+  height: 40px; /* Hauteur du champ */
+  font-size: 18px; /* Taille de la police du champ */
+  padding: 5px 10px; /* Espace intérieur pour donner un peu de marge à la saisie */
+}
+
+span button {
+  height: 50px; /* Hauteur du bouton */
+  font-size: 20px; /* Taille de la police du bouton */
+  padding: 10px 20px; /* Espace intérieur pour donner un peu de marge au texte du bouton */
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.login-card {
+  width: 40rem; /* ou toute autre largeur que vous souhaitez */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centrage horizontal des enfants */
+  justify-content: center; /* centrage vertical des enfants */
+  padding: 0px; /* espace autour du contenu pour un peu d'air */
+}
+span {
+  display: block;
+  width: fit-content;
+
+}
+.p-field {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.p-field label {
+  font-size: 20px; /* Augmente la taille de la police */
+  margin-top: 20px; /* Ajoute une marge en dessous pour séparer du champ de saisie */
+  display: block; /* Assurez-vous que le label s'affiche comme un bloc pour prendre toute la largeur disponible */
+}
+
+.card1 {
+  width: 900px;
+  height: 500px;
+}
