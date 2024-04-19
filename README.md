@@ -7,4 +7,3 @@ We use GitHub to launch and clone the file directory. To clone it, use the comma
 - Start the Node.js server with "npm start" in the frontend folder (LGOFrontend). Then access the backend folder (LGOBackend), and use "cd src" and "node app.js" to start the backend.
 - Check that the server is running by accessing http://localhost:4081 and/or http://localhost:4080 in a browser or using curl in the terminal.
 
-Translated with DeepL.com (free version)
